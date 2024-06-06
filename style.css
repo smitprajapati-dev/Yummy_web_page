@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+ }
+
+nav {
+    background: #ffffff;
+ }
+ 
+ .navbar-brand {
+    padding-left: 140px;
+    font-size: 30px;
+    font-weight: 700;
+ }
+ 
+ .navbar-nav {
+    margin-right: 140px; 
+ }
+ 
+ .nav-item a {
+    position: relative;
+    /* font-size: large; */
+ }
+ .navbar-collapse {
+    margin-right: 80px;
+ }
+
+ header ul li a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 12px;
+    bottom: 10px;
+    left: 10px;
+    top: 30 px;
+    border-bottom: 2px solid red;
+    transition: 0.4s linear all;
+ }
+ 
+
+ 
+ header span {
+    color: red;
+ }
+ 
+ header ul li a:hover:before {
+    width: 75%;
+ }
+ .section1 {
+   background: #EEEEEE;
+}
+
+
+.enjoy h1 {
+   font-family: "Amatic SC", sans-serif;
+   margin: 0px 0px 20px;
+   font-size: 64px;
+   font-weight: 700;
+   color: #37373F;
+}
+
+.enjoy p {
+   color: #4F4F5A;
+}
+
+.section2 i {
+   font-size: 30px;
+   vertical-align: -0.150em;
+   color: red;
+
+}
+
+
+
+.section2 a {
+   text-decoration: none;
+}
+
+section span {
+   color: red;
+}
+
+
+.section-header h2 {
+   font-size: 13px;
+   letter-spacing: 1px;
+   font-weight: 400;
+   margin: 0;
+   padding: 0;
+   color: #7f7f90;
+   text-align: center;
+}
+
+.section-header p {
+   font-size: 48px;
+   font-weight: 400;
+   text-align: center;
+   font-family: "Amatic SC", sans-serif;
+}
