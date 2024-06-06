@@ -1,99 +1,204 @@
 * {
-    padding: 0;
-    margin: 0;
- }
-
-nav {
-    background: #ffffff;
- }
- 
- .navbar-brand {
-    padding-left: 140px;
-    font-size: 30px;
-    font-weight: 700;
- }
- 
- .navbar-nav {
-    margin-right: 140px; 
- }
- 
- .nav-item a {
-    position: relative;
-    /* font-size: large; */
- }
- .navbar-collapse {
-    margin-right: 80px;
- }
-
- header ul li a::before {
-    content: "";
-    position: absolute;
-    width: 0;
-    height: 12px;
-    bottom: 10px;
-    left: 10px;
-    top: 30 px;
-    border-bottom: 2px solid red;
-    transition: 0.4s linear all;
- }
- 
-
- 
- header span {
-    color: red;
- }
- 
- header ul li a:hover:before {
-    width: 75%;
- }
- .section1 {
-   background: #EEEEEE;
+  padding: 0;
+  margin: 0;
 }
 
+nav {
+  background: #ffffff;
+}
+
+.navbar-brand {
+  padding-left: 140px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navbar-nav {
+  margin-right: 140px;
+}
+
+.nav-item a {
+  position: relative;
+  /* font-size: large; */
+}
+.navbar-collapse {
+  margin-right: 80px;
+}
+
+header ul li a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 12px;
+  bottom: 10px;
+  left: 10px;
+  top: 30 px;
+  border-bottom: 2px solid red;
+  transition: 0.4s linear all;
+}
+
+header span {
+  color: red;
+}
+
+header ul li a:hover:before {
+  width: 75%;
+}
+.section1 {
+  background: #eeeeee;
+}
 
 .enjoy h1 {
-   font-family: "Amatic SC", sans-serif;
-   margin: 0px 0px 20px;
-   font-size: 64px;
-   font-weight: 700;
-   color: #37373F;
+  font-family: "Amatic SC", sans-serif;
+  margin: 0px 0px 20px;
+  font-size: 64px;
+  font-weight: 700;
+  color: #37373f;
 }
 
 .enjoy p {
-   color: #4F4F5A;
+  color: #4f4f5a;
 }
 
 .section2 i {
-   font-size: 30px;
-   vertical-align: -0.150em;
-   color: red;
-
+  font-size: 30px;
+  vertical-align: -0.15em;
+  color: red;
 }
 
-
-
 .section2 a {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 section span {
-   color: red;
+  color: red;
 }
 
-
-.section-header h2 {
-   font-size: 13px;
-   letter-spacing: 1px;
-   font-weight: 400;
-   margin: 0;
-   padding: 0;
-   color: #7f7f90;
-   text-align: center;
+.about-header h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #7f7f90;
+  text-align: center;
 }
 
-.section-header p {
-   font-size: 48px;
-   font-weight: 400;
-   text-align: center;
-   font-family: "Amatic SC", sans-serif;
+.about-header p {
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "Amatic SC", sans-serif;
+}
+
+.learn-more {
+  color: #212529;
+  text-align: left;
+}
+
+.learn-more img {
+  margin-left: 40px;
+  height: 60vh;
+}
+
+.info {
+  left: 10%;
+  bottom: 20%;
+  right: 10%;
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+.about {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.about ul li {
+  list-style: none;
+}
+
+.bg-1 {
+  background-image: url(img/about.jpg);
+  /* background-repeat: no-repeat; */
+}
+
+.info h4 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.info p {
+  font-size: 28px;
+  font-weight: 700;
+  color: red;
+}
+
+.why-choose {
+  background: #eee;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.w-choose {
+  background: #ce1212;
+  color: #fff;
+  padding: 30px;
+
+}
+.w-choose:hover{
+    transform: scale(1.25);
+    transition: 1s;
+}
+
+.w-choose h1 {
+  font-weight: 700;
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+
+.w-choose a {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.3);
+  padding: 6px 30px 8px 30px;
+  color: #fff;
+  border-radius: 50px;
+  transition: all ease-in-out 0.4s;
+}
+
+.learn {
+  text-align: center;
+}
+
+.tab2 {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  border: 1px solid rgba(55, 55, 63, 0.1);
+  height: 62vh;
+}
+.tab2:hover {
+  transform: scale(1.25);
+  transition: 1s;
+}
+
+.tab2 i {
+  color: red;
+  margin-bottom: 30px;
+  font-size: 32px;
+  margin-bottom: 30px;
+  background: rgba(206, 18, 18, 0.1);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  margin-left: 70px;
+}
+.tab2:nth-child(2){
+    margin-bottom: 20px;
 }
