@@ -257,8 +257,8 @@ section span {
 .event-header h1 {
   font-family: "Amatic SC", sans-serif;
 }
-.event-header{
-    font-size: small;
+.event-header {
+  font-size: small;
 }
 
 /* chefs */
@@ -320,4 +320,41 @@ section span {
 
 .owl-item.center.active {
   border: 8px solid red;
+}
+.book-header h2 {
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.book-header h1 {
+  font-family: "Amatic SC", sans-serif;
+}
+
+.icon1 {
+  border: 1px solid #ce1212;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #ce1212;
+}
+
+.icon1 {
+  border: 1px solid #ce1212;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #ce1212;
+}
+
+.icon1 i {
+  position: relative;
+  top: -14px;
+  left: 15px;
+}
+
+.info-box {
+  padding: 30px;
 }
