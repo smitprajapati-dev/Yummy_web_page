@@ -144,11 +144,10 @@ section span {
   background: #ce1212;
   color: #fff;
   padding: 30px;
-
 }
-.w-choose:hover{
-    transform: scale(1.25);
-    transition: 1s;
+.w-choose:hover {
+  transform: scale(1.25);
+  transition: 1s;
 }
 
 .w-choose h1 {
@@ -199,6 +198,126 @@ section span {
   height: 64px;
   margin-left: 70px;
 }
-.tab2:nth-child(2){
-    margin-bottom: 20px;
+.tab2:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.stats {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/stats-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.stats h4 {
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 130px;
+}
+
+.stats p {
+  font-size: 16px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.6);
+}
+.section-header2 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.section-header2 h2 {
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  color: #7f7f90;
+  text-transform: uppercase;
+}
+
+.section-header2 p {
+  font-size: 48px;
+  font-weight: 40px;
+  font-family: "Amatic SC", sans-serif;
+}
+
+.tab-header p {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #676775;
+}
+
+.tab-header h3 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #ce1212;
+}
+
+.event-header h1 {
+  font-family: "Amatic SC", sans-serif;
+}
+.event-header{
+    font-size: small;
+}
+
+/* chefs */
+
+.chefs-header {
+  font-family: "Architects Daughter", cursive;
+}
+
+.pera:hover {
+  transition: 0.5s;
+}
+
+.icon {
+  position: absolute;
+  right: -20px;
+  flex-direction: column;
+  display: flex;
+  padding-right: 30px;
+  padding-left: 10px;
+  top: 14px;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.wave {
+  margin-top: -80px;
+}
+
+.pera:hover .icon {
+  opacity: 1;
+}
+
+.pera {
+  transition: all 0.3;
+  overflow: hidden;
+  margin-top: 80px;
+}
+
+.pera:hover {
+  transform: scale(1.15);
+}
+
+.owl-item > div {
+  cursor: pointer;
+  margin: 6% 8%;
+  transition: margin 0.4s ease;
+}
+
+.owl-item.center > div {
+  cursor: auto;
+  margin: 0;
+}
+
+.owl-item:not(.center) > div:hover {
+  opacity: 0.75;
+}
+
+.owl-item.center.active {
+  border: 8px solid red;
 }
