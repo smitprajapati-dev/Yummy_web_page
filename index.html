@@ -593,27 +593,27 @@
               type="button"
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide-to="0"
-              class="active button3"
+              class="active button3 bg-danger"
               aria-current="true"
               aria-label="Slide 1"
             ></button>
             <button
               type="button"
-              class="button3"
+              class="button3 bg-danger"
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide-to="1"
               aria-label="Slide 2"
             ></button>
             <button
               type="button"
-              class="button3"
+              class="button3 bg-danger"
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide-to="2"
               aria-label="Slide 3"
             ></button>
             <button
               type="button"
-              class="button3"
+              class="button3 bg-danger"
               data-bs-target="#carouselExampleIndicators"
               data-bs-slide-to="3"
               aria-label="Slide 4"
@@ -883,15 +883,19 @@
     <!-- Chef section  -->
 
     <section id="chefs" class="chefs mt-5">
-      <div class="container-fluid d-flex flex-column align-items-center  bg-secondary-subtle pb-5">
+      <div
+        class="container-fluid d-flex flex-column align-items-center bg-secondary-subtle pb-5"
+      >
         <div class="chefs-header text-center">
           <h5 class="pt-5 fs-6">CHEFS</h5>
-          <h1 class="sem fs-3 fw-lighter">Our <span>Proffesional </span>Chefs</h1>
+          <h1 class="sem fs-3 fw-lighter">
+            Our <span>Proffesional </span>Chefs
+          </h1>
         </div>
 
         <div class="row">
-          <div class=" d-flex justify-content-evenly gap-4">
-            <div class="d-flex justify-content-center ">
+          <div class="d-flex justify-content-evenly gap-4">
+            <div class="d-flex justify-content-center">
               <div class="card pera" style="width: 22rem">
                 <img
                   src="img/chefs/chefs-1.jpg"
@@ -976,6 +980,300 @@
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallerry">
+      <div class="container">
+        <div class="owl-carousel d-inline-flex">
+          <div><img src="img/gallery/gallery-1.jpg" alt="" /></div>
+          <div><img src="img/gallery/gallery-2.jpg" alt="" /></div>
+          <div><img src="img/gallery/gallery-3.jpg" alt="" /></div>
+          <div><img src="img/gallery/gallery-4.jpg" alt="" /></div>
+          <div><img src="img/gallery/gallery-5.jpg" alt="" /></div>
+          <div><img src="img/gallery/gallery-6.jpg" alt="" /></div>
+          <div><img src="img/gallery/gallery-7.jpg" alt="" /></div>
+        </div>
+      </div>
+    </section>
+    <section class="book-a-table">
+      <div class="container">
+        <div class="book-header text-center">
+          <h2 class="pt-5 text-secondary">BOOK A TABLE</h2>
+          <h1>Book <span>Your Stay</span> With Us</h1>
+        </div>
+
+        <div class="row bg-light">
+          <div class="col-4">
+            <img class="img-fluid" src="img/reservation.jpg" alt="" />
+          </div>
+          <div class="col-8 mt-5 pb-5">
+            <input
+              type="text"
+              name=""
+              class="px-4 py-2 mt-4 border border-black-50"
+              placeholder="your name"
+              id=""
+            />
+            <input
+              type="text"
+              name=""
+              class="px-4 py-2 mt-4 border border-black-50"
+              placeholder="your email"
+              id=""
+            />
+            <input
+              type="text"
+              name=""
+              class="px-4 py-2 mt-4 border border-black-50"
+              placeholder="your phone"
+              id=""
+            />
+            <input
+              type="text"
+              name=""
+              class="px-4 py-2 mt-4 border border-black-50"
+              placeholder="date"
+              id=""
+            />
+            <input
+              type="text"
+              name=""
+              class="px-4 py-2 mt-4 border border-black-50"
+              placeholder="time"
+              id=""
+            />
+            <input
+              type="text"
+              name=""
+              class="px-4 py-2 mt-4 border border-black-50"
+              placeholder="# of people"
+              id=""
+            />
+            <textarea
+              class="mt-4 ps-2 border border border-black-50"
+              name=""
+              placeholder="Message"
+              id=""
+              cols="30"
+              rows="10"
+              style="height: 25vh; width: 700px"
+            ></textarea>
+            <button
+              type="button"
+              style="margin-left: 270px"
+              class="btn btn-danger rounded-pill mb-5 w-25 mt-2"
+            >
+              Book a Table
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="map">
+      <div class="container">
+        <div class="text-center">
+          <h5 class="text-secondary pt-5">CONTACT</h5>
+          <h1 class="sem pb-5">
+            Need Help? <span class="text-danger">Contact Us</span>
+          </h1>
+        </div>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3659.29854641938!2d72.52188757195343!3d23.485753852168077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDI5JzA4LjciTiA3MsKwMzEnMzUuNCJF!5e0!3m2!1sen!2sin!4v1717797551218!5m2!1sen!2sin"
+          width="1116"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="row">
+          <div class="col-6">
+            <div class="info-box d-flex bg-body-secondary">
+              <div class="icon1">
+                <i
+                  class="bi bi-map "
+                  style="color: #ffffff"
+                ></i>
+              </div>
+              <div class="text1">
+                <h4 class="ms-5">Our Address</h4>
+                <p class="ms-5">A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="info-box d-flex bg-body-secondary">
+              <div class="icon1">
+                <i
+                  class="fa-regular fa-envelope fa-2xl my-5 mx-1"
+                  style="color: #ffffff"
+                ></i>
+              </div>
+              <div class="text1">
+                <h4 class="ms-5">Email Us</h4>
+                <p class="ms-5">contact@example.com</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="info-box d-flex bg-body-secondary">
+              <div class="icon1">
+                <i
+                  class="fa-solid fa-phone fa-2xl my-5 mx-1"
+                  style="color: #ffffff"
+                ></i>
+              </div>
+              <div class="text1">
+                <h4 class="ms-5">Call Us</h4>
+                <p class="ms-5">+1 5589 55488 55</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="info-box d-flex bg-body-secondary">
+              <div class="icon1">
+                <i
+                  class="fa-solid fa-share-nodes fa-2xl my-5"
+                  style="color: #fafafa"
+                ></i>
+              </div>
+              <div class="text1">
+                <h4 class="ms-5">Opening Hours</h4>
+                <p class="ms-5">
+                  <span class="text-black fw-bold">Mon-Sat:</span> 11AM -
+                  23PM;<span class="text-black fw-bold"> Sunday: </span> Closed
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container box3">
+        <div class="row">
+          <div class="col-6 text-center my-4 ps-4">
+            <div class="card rounded-0">
+              <input
+                type="text"
+                name=""
+                class="border border-light p-2"
+                placeholder="name"
+                id=""
+              />
+            </div>
+          </div>
+          <div class="col-6 text-center my-4 ps-4">
+            <div class="card rounded-0">
+              <input
+                type="text"
+                name=""
+                placeholder="name"
+                class="border border-light p-2"
+                id=""
+              />
+            </div>
+          </div>
+          <div class="col-12 text-center my-2 ps-4">
+            <div class="card rounded-0">
+              <input
+                type="text"
+                name=""
+                placeholder="name"
+                class="border border-light p-2"
+                id=""
+              />
+            </div>
+          </div>
+          <div class="col-12 text-center mt-3 ps-4">
+            <div class="card rounded-0">
+              <textarea
+                name=""
+                placeholder="Message"
+                id=""
+                class="border border-light p-2"
+                cols="30"
+                rows="5"
+              ></textarea>
+            </div>
+          </div>
+          <div class="col-12 text-center mt-3 ps-4">
+            <div class="text-center">
+              <button
+                type="button"
+                class="btn btn-danger rounded-pill px-5 py-2 my-5"
+              >
+                Book a Table
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid bg-dark text-light">
+        <div class="container">
+          <div class="row py-5">
+            <div class="col-3 d-flex">
+              <div>
+                <i class="fa-solid fa-location-dot fa-xl px-2"></i>
+              </div>
+              <div>
+                <h5>Address</h5>
+                <p>
+                  A108 Adam Street <br />
+                  New York, NY 535022 - US
+                </p>
+              </div>
+            </div>
+
+            <div class="col-3 d-flex">
+              <div>
+                <i class="fa-solid fa-phone fa-xl px-2"></i>
+              </div>
+              <div>
+                <h5>Reservations</h5>
+                <p>
+                  <span class="fw-bold">Phone:</span> +1 5589 55488 55 <br />
+                  <span class="fw-bold"> Email:</span> info@example.com
+                </p>
+              </div>
+            </div>
+
+            <div class="col-3 d-flex">
+              <div>
+                <i class="fa-regular fa-clock fa-xl px-2"></i>
+              </div>
+              <div>
+                <h5>Opening Hours</h5>
+                <p>
+                  <span class="fw-bold">Mon-Sat: 11AM </span> - 23PM <br />
+                  <span class="fw-bold"> Sunday: </span> Closed
+                </p>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div>
+                <h5>Follow Us</h5>
+              </div>
+              <i class="fa-brands fa-twitter boxi"></i>
+              <i class="fa-brands fa-facebook boxi"></i>
+              <i class="fa-brands fa-instagram boxi"></i>
+              <i class="fa-brands fa-linkedin boxi"></i>
+            </div>
+            <hr class="my-4" />
+            <div class="col-12 text-center">
+              <p>
+                © Copyright <span class="fw-bold">Yummy.</span> All Rights
+                Reserved <br />
+                Designed by BootstrapMade
+              </p>
             </div>
           </div>
         </div>
