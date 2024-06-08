@@ -337,13 +337,14 @@ section span {
   border: 1px solid #ce1212;
   width: 50px;
   height: 50px;
-  border-radius: 50%;
+  border-radius: 70%;
   background: #ce1212;
+
 }
 .icon1 i {
   position: relative;
-  top: -14px;
-  left: 15px;
+  top: -13px;
+  left: 12px;
 }
 
 .info-box {
