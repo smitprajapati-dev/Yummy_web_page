@@ -1,0 +1,142 @@
+
+Bootstrap offers a vast collection of classes to help you design responsive and attractive web pages efficiently. Here’s an overview of the most commonly used types of classes in Bootstrap:
+
+1. Layout
+Containers:
+
+.container: A fixed-width container.
+.container-fluid: A full-width container, spanning the entire width of the viewport.
+.container-{breakpoint}: Container with responsive widths (e.g., .container-sm).
+Grid System:
+
+.row: Creates a row of columns.
+.col, .col-{breakpoint}, .col-{breakpoint}-{number}: Columns in various configurations.
+2. Content
+Typography:
+
+.h1, .h2, .h3, .h4, .h5, .h6: Headings.
+.display-{number}: Larger display headings.
+.lead: Paragraph for lead text.
+.small: Smaller text.
+.mark: Highlighted text.
+.blockquote: Blockquote.
+.blockquote-footer: Blockquote footer.
+.text-{alignment}: Text alignment (left, center, right, justify).
+.text-{color}: Text color (primary, secondary, success, danger, warning, info, light, dark, body, muted, white, etc.).
+Images:
+
+.img-fluid: Responsive image.
+.img-thumbnail: Thumbnail style.
+.figure: Wrapper for image.
+.figure-img: Image inside figure.
+.figure-caption: Caption inside figure.
+Tables:
+
+.table: Basic table.
+.table-{modifier}: Table modifiers (striped, bordered, hover, dark, etc.).
+.table-responsive-{breakpoint}: Responsive tables.
+3. Forms
+Form Controls:
+
+.form-control: Basic form control.
+.form-control-{size}: Form control sizes (sm, lg).
+.form-select: Select control.
+.form-check: Checkboxes and radios.
+.form-switch: Switch control.
+Form Layouts:
+
+.form-group: Form group for labels and controls.
+.form-inline: Inline forms.
+4. Components
+Alerts:
+
+.alert: Basic alert.
+.alert-{color}: Alert color variants.
+Badges:
+
+.badge: Basic badge.
+.badge-{color}: Badge color variants.
+Breadcrumb:
+
+.breadcrumb: Breadcrumb navigation.
+Buttons:
+
+.btn: Basic button.
+.btn-{color}: Button color variants.
+.btn-{size}: Button sizes (sm, lg).
+Card:
+
+.card: Basic card.
+.card-{header, body, footer}: Card components.
+Carousel:
+
+.carousel: Basic carousel.
+.carousel-item: Carousel item.
+Dropdowns:
+
+.dropdown: Basic dropdown.
+.dropdown-menu: Dropdown menu.
+.dropdown-item: Dropdown item.
+List Group:
+
+.list-group: Basic list group.
+.list-group-item: List group item.
+Modals:
+
+.modal: Basic modal.
+.modal-dialog: Modal dialog.
+Navs and Tabs:
+
+.nav: Basic nav.
+.nav-item: Nav item.
+.nav-link: Nav link.
+.nav-tabs, .nav-pills: Tab and pill styles.
+Navbar:
+
+.navbar: Basic navbar.
+.navbar-{expand}-{breakpoint}: Navbar expand at specific breakpoints.
+.navbar-{color}: Navbar color variants.
+Pagination:
+
+.pagination: Basic pagination.
+.page-item: Pagination item.
+.page-link: Pagination link.
+Progress:
+
+.progress: Basic progress bar.
+.progress-bar: Progress bar fill.
+5. Utilities
+Borders:
+
+.border, .border-{side}, .border-{color}, .border-{width}, .rounded, .rounded-{side}.
+Colors:
+
+.text-{color}, .bg-{color}: Text and background colors.
+Display:
+
+.d-{value}, .d-{breakpoint}-{value}: Display utilities.
+Flex:
+
+.d-flex, .flex-{direction}, .justify-content-{value}, .align-items-{value}.
+Float:
+
+.float-{side}, .float-{breakpoint}-{side}.
+Overflow:
+
+.overflow-{value}.
+Position:
+
+.position-{value}, .fixed-{side}, .sticky-top.
+Sizing:
+
+.w-{value}, .h-{value}, .mw-{value}, .mh-{value}.
+Spacing:
+
+.m{side}-{value}, .p{side}-{value}: Margin and padding.
+Text:
+
+.text-{alignment}, .text-{color}, .text-{wrap}, .text-{break}, .text-{transform}, .text-{weight}, .font-{size}, .font-{weight}.
+Visibility:
+
+.visible, .invisible.
+Example Usage:
